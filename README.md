@@ -1,1 +1,1 @@
-# JS Programming Basics
+# JS Programming Basics Snippets
