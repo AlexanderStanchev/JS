@@ -1,0 +1,24 @@
+function vowelSum(args) {
+    let number = Number(args[0]);
+    let maxNum = Number.NEGATIVE_INFINITY;
+    let sum = 0;
+    for (var i = 1; i <= number; i++) {
+        let currentNum = Number(args[i]);
+        sum += currentNum;
+        if(maxNum < currentNum) {
+            maxNum = currentNum;
+        }
+    }
+    let sumRemainder = sum - maxNum;
+    let difference = maxNum - sumOstanali;
+
+    if (maxNum == sumRemainder) {
+        console.log("Yes");
+        console.log("Sum = " + maxNum);
+    } else {
+        console.log("No");
+        console.log("Diff = " + Math.abs(difference));
+    }
+
+}
+vowelSum(["4", "6", "1", "2", "3"]);
