@@ -8,7 +8,7 @@ function solve(args) {
     let yellowBallsCount = 0;
     let whiteBallsCount = 0;
     let blackBallsCount = 0;
-    let otherColorsCount = 0;
+    let otherColorsCount =0;
     let totalPoints = 0;
 
 
@@ -35,7 +35,7 @@ function solve(args) {
         
     }
 
-    console.log(`Total points: ${totalPoints}
+    console.log(`Total points: ${Math.trunc(totalPoints)}
     Points from red balls: ${redBallsCount}
     Points from orange balls: ${orangeBallsCount}
     Points from yellow balls: ${yellowBallsCount}
