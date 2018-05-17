@@ -8,7 +8,7 @@ function solve(args) {
     let yellowBallsCount = 0;
     let whiteBallsCount = 0;
     let blackBallsCount = 0;
-    let otherColorsCount =0;
+    let otherColorsCount = 0;
     let totalPoints = 0;
 
 
